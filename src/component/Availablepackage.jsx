@@ -2,12 +2,10 @@ import img1 from '../assets/img1.jpg'
 import { BiLocationPlus } from 'react-icons/bi'
 import { BsStarFill } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
-import img2 from '../assets/img2.jpg'
-import img3 from '../assets/img3.jpg'
 
 const Availablepackage = () => {
     return (
-        <div className="contains  mt-12 grid grid-cols-1 lg:grid lg:grid-cols-3 lg:gap-1">
+        <div className="contains lg:ml-6  lg:mt-12 grid grid-cols-1 lg:grid lg:grid-cols-3 lg:gap-1">
             {/* <h1 className=' mt-5 text-2xl bold font-mono justify-center text-center text-blue-800'>Special Packages</h1> */}
             <div className='container bg-slate-300 relative  right-1 mb-2 rounded-lg  border-black h-30 lg:relative lg:left-5 '>
                 <div className="box p-3">
@@ -16,8 +14,8 @@ const Availablepackage = () => {
                         <p className='flex '> <span className='mt-1'><BiLocationPlus /> </span> Lumbini,kapilvastu</p>
                         <p className='flex'> <span className='mt-1'><BsStarFill /></span> 7 days package</p>
                         <div className="flex justify-between">
-                            <Link to='/package'>View Details</Link>
-                            <p className='mr-7'>$120.00</p>
+                            <Link to='/package' className='bg-blue-900 rounded-md px-3 py-2 mt-4 text-white'>View Details</Link>
+                            <p className='mr-7 mt-6'>$120.00</p>
                         </div>
 
                     </div>
@@ -31,8 +29,8 @@ const Availablepackage = () => {
                         <p className='flex '> <span className='mt-1'><BiLocationPlus /> </span> Lumbini,kapilvastu</p>
                         <p className='flex'> <span className='mt-1'><BsStarFill /></span> 7 days package</p>
                         <div className="flex justify-between">
-                            <Link to='/package'>View Details</Link>
-                            <p className='mr-7'>$120.00</p>
+                            <Link to='/package'  className='bg-blue-900 rounded-md px-3 py-2 mt-4 text-white'>View Details</Link>
+                            <p className='mr-7 mt-6'>$120.00</p>
                         </div>
 
                     </div>
@@ -46,8 +44,8 @@ const Availablepackage = () => {
                         <p className='flex '> <span className='mt-1'><BiLocationPlus /> </span> Lumbini,kapilvastu</p>
                         <p className='flex'> <span className='mt-1'><BsStarFill /></span> 7 days package</p>
                         <div className="flex justify-between">
-                            <Link to='/package'>View Details</Link>
-                            <p className='mr-7'>$120.00</p>
+                            <Link to='/package'  className='bg-blue-900 rounded-md px-3 py-2 mt-4 text-white'>View Details</Link>
+                            <p className='mr-7 mt-6'>$120.00</p>
                         </div>
 
                     </div>
@@ -61,8 +59,8 @@ const Availablepackage = () => {
                         <p className='flex '> <span className='mt-1'><BiLocationPlus /> </span> Lumbini,kapilvastu</p>
                         <p className='flex'> <span className='mt-1'><BsStarFill /></span> 7 days package</p>
                         <div className="flex justify-between">
-                            <Link to='/package'>View Details</Link>
-                            <p className='mr-7'>$120.00</p>
+                            <Link to='/package'  className='bg-blue-900 rounded-md px-3 py-2 mt-4 text-white'>View Details</Link>
+                            <p className='mr-7 mt-6'>$120.00</p>
                         </div>
 
                     </div>
@@ -76,8 +74,8 @@ const Availablepackage = () => {
                         <p className='flex '> <span className='mt-1'><BiLocationPlus /> </span> Lumbini,kapilvastu</p>
                         <p className='flex'> <span className='mt-1'><BsStarFill /></span> 7 days package</p>
                         <div className="flex justify-between">
-                            <Link to='/package'>View Details</Link>
-                            <p className='mr-7'>$120.00</p>
+                            <Link to='/package'  className='bg-blue-900 rounded-md px-3 py-2 mt-4 text-white'>View Details</Link>
+                            <p className='mr-7 mt-6'>$120.00</p>
                         </div>
 
                     </div>
@@ -91,8 +89,8 @@ const Availablepackage = () => {
                         <p className='flex '> <span className='mt-1'><BiLocationPlus /> </span> Lumbini,kapilvastu</p>
                         <p className='flex'> <span className='mt-1'><BsStarFill /></span> 7 days package</p>
                         <div className="flex justify-between">
-                            <Link to='/package'>View Details</Link>
-                            <p className='mr-7'>$120.00</p>
+                            <Link to='/package'  className='bg-blue-900 rounded-md px-3 py-2 mt-4 text-white '>View Details</Link>
+                            <p className='mr-7 mt-6'>$120.00</p>
                         </div>
 
                     </div>
