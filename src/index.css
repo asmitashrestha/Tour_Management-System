@@ -191,8 +191,24 @@
 
 
 /* footer -css */
-.naves{
-  display: inline;
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-right:200px;
+  background-color: rgb(178, 184, 184);
+  width: 1350px;
+}
+
+.foots{
+  display: flex;
+  justify-content: space-between;
+}
+
+.naves,.links{
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: rgb(27, 26, 26);
 }
 
 .icons p{
@@ -201,6 +217,12 @@
   padding: 12px 15px;
   color: white;
 }
+
+.footer-right p{
+ display: flex;
+ text-align: justify;
+}
+
 
 
 
