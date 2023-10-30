@@ -5,32 +5,36 @@ import img3 from '../assets/img3.jpg'
 
 const Customergallery = () => {
   return (
-    <div className='gallery'>
-      <div className="img-collection mb-4">
-        <img src={img1} alt="" />
+    <>
+      <p className='mt-32 justify-center text-center text-3xl font-serif font-bold text-zinc-700'>Customers Image Gallery</p>
+      <div className='gallery'>
+        <div className="img-collection mb-4">
+          <img src={img1} alt="" />
+        </div>
+        <div className="img-collection mb-4">
+          <img src={img2} alt="" />
+        </div>
+        <div className="img-collection mb-4">
+          <img src={img3} alt="" />
+        </div>
+        <div className="img-collection mb-4 ">
+          <img src={img1} alt="" />
+        </div>
+        <div className="img-collection mb-4">
+          <img src={img1} alt="" />
+        </div>
+        <div className="img-collection mb-4">
+          <img src={img2} alt="" />
+        </div>
+        <div className="img-collection mb-4">
+          <img src={img3} alt="" />
+        </div>
+        <div className="img-collection mb-4">
+          <img src={img1} alt="" />
+        </div>
       </div>
-      <div className="img-collection mb-4">
-        <img src={img2} alt="" />
-      </div>
-      <div className="img-collection mb-4">
-        <img src={img3} alt="" />
-      </div>
-      <div className="img-collection mb-4 ">
-        <img src={img1}   alt="" />
-      </div>
-      <div className="img-collection mb-4">
-        <img src={img1} alt="" />
-      </div>
-      <div className="img-collection mb-4">
-        <img src={img2} alt="" />
-      </div>
-      <div className="img-collection mb-4">
-        <img src={img3} alt="" />
-      </div>
-      <div className="img-collection mb-4">
-        <img src={img1}   alt="" />
-      </div>
-    </div>
+    </>
+
   )
 }
 

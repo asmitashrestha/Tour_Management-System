@@ -177,16 +177,30 @@
   grid-template-columns: repeat(4,1fr);
   margin-left: 45px;
   padding: 5px;
-  margin-top: 110px;
+  margin-top: 50px;
 }
 .img-collection img{
   border-radius: 10px;
+  border: 3px solid rgb(235, 232, 226);
+  
+}
+.img-collection img:hover{
+  box-shadow: 5px 7px 9px 9px rgb(187, 184, 184);
 }
 
 
 
+/* footer -css */
+.naves{
+  display: inline;
+}
 
-
+.icons p{
+  border-radius: 100%;
+  background-color: rgb(14, 7, 83);
+  padding: 12px 15px;
+  color: white;
+}
 
 
 

@@ -3,6 +3,7 @@ import Homepage from '../component/Homepage'
 import Availablepackage from '../component/Availablepackage'
 import Aboutexperience from './Aboutexperience'
 import Customergallery from './Customergallery'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Availablepackage/>
       <Aboutexperience/>
       <Customergallery/>
+      <Footer/>
     </div>
   )
 }
